@@ -1,0 +1,118 @@
+@use "../helper/variable.scss" as variable;
+
+.outer_area {
+    margin-bottom: 40px;
+
+    .first_area {
+        text-align: center;
+        padding: 60px 0px 60px 0px;
+        background-color: rgb(245, 245, 245);
+        margin-bottom: 40px;
+
+        .content_area {
+            h2 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+                font-weight: 700;
+                margin-bottom: 40px;
+            }
+
+            p {
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .second_area {
+        .section_area {
+            h2 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 45px;
+                font-weight: 900;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .section {
+                margin-bottom: 30px;
+
+                .image_area {
+                    img {
+                        height: 300px;
+                        width: 600px;
+                        border-radius: 10px;
+                    }
+                }
+
+                .description {
+                    h3 {
+                        font-family: sans-serif;
+                        font-size: 26px;
+                        font-weight: 700;
+                        color: rgb(41, 40, 40);
+                    }
+
+                    p {
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: rgb(41, 40, 40);
+                    }
+                }
+            }
+        }
+    }
+
+    .third_area {
+        .head_area {
+            margin-bottom: 40px;
+            padding: 45px 0px 50px 0px;
+
+            h2 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 45px;
+                font-weight: 900;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .content_area {
+                .card {
+                    text-align: center;
+                    padding: 20px;
+                    background-color: rgb(245, 245, 245);
+                    border: none;
+                    margin-bottom: 20px;
+
+                    .icon_area {
+
+                        .icons {
+                            color: variable.$primary_color;
+                            height: 50px;
+                            width: 50px;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .heading {
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 24px;
+                        font-weight: 900;
+                        margin-bottom: 10px;
+                    }
+
+                    .paragraph {
+                        font-family: sans-serif;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: rgb(51, 51, 51);
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

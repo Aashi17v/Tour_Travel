@@ -1,0 +1,60 @@
+@use "../helper/variable.scss" as variable;
+
+.main_head {
+
+padding:125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff8e1;
+  font-family: "Poppins", sans-serif;
+
+  .inner_container {
+    text-align: center;
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .image_area {
+    width: 220px;
+    margin: 0 auto 20px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .content_area {
+    h1 {
+      color: #ff9800;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+
+    button {
+      background: #f7ae04;
+      color: #fff;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #ee9906;
+        transform: scale(1.05);
+      }
+    }
+  }
+}

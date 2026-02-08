@@ -1,0 +1,104 @@
+@use "../helper/variable.scss" as variable;
+
+.detail_page {
+  background-color: #fffbea;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .detail_container {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    transition: all 0.3s ease;
+
+
+    .image_section {
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+
+      img {
+        height:400px;
+        width: 100%;
+        border-radius: 15px;
+        transition: transform 0.5s ease, filter 0.4s ease;
+
+        &:hover {
+          transform: scale(1.06);
+        }
+      }
+    }
+
+    .content_section {
+      margin-top: 25px;
+
+      h1 {
+        color: #ff8c00;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+
+      p {
+        color: #444;
+        line-height: 1.6;
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        margin: 15px 0;
+        padding-left: 25px;
+
+        li {
+          color: #555;
+          margin-bottom: 8px;
+          list-style: disc;
+        }
+      }
+
+      .buttons {
+        margin-top: 25px;
+
+        button {
+          border: none;
+          border-radius: 25px;
+          padding: 12px 28px;
+          font-size: 15px;
+          font-weight: 600;
+          cursor: pointer;
+          margin-right: 12px;
+          transition: all 0.3s ease;
+
+          &.book_now {
+            background: linear-gradient(135deg, #ff9900, #ff5e00);
+            color: white;
+            box-shadow: 0 4px 8px rgba(255, 94, 0, 0.4);
+
+            &:hover {
+              transform: scale(1.05);
+              background: linear-gradient(135deg, #ff5e00, #ff9900);
+            }
+          }
+
+          &.back_btn {
+            background: #fff;
+            color: #333;
+            border: 2px solid #333;
+
+            &:hover {
+              background: #333;
+              color: #fff;
+              transform: scale(1.05);
+            }
+          }
+        }
+      }
+    }
+  }
+}

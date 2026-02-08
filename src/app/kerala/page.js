@@ -15,7 +15,7 @@ export default function KeralaDetail() {
                 <Image src={kerala} alt="Kerala" />
               </div>
               <div className="content_section">
-                <h1>Kerala - God's Own Country</h1>
+                <h1>Kerala - God&apos;s Own Country</h1>
                 <p>
                   Relax amidst the tranquil backwaters, lush greenery, and serene
                   beaches of South India. Kerala offers peace, nature, and culture

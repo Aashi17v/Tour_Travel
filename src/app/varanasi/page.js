@@ -17,7 +17,7 @@ export default function VaranasiDetail() {
               <div className="content_section">
                 <h1>Varanasi - The Spiritual Capital</h1>
                 <p>
-                  Experience the divine atmosphere of India's oldest living city.
+                  Experience the divine atmosphere of India&apos;s oldest living city.
                   Watch the mesmerizing Ganga Aarti, explore ancient ghats, and
                   feel the spiritual pulse of the sacred river.
                 </p>

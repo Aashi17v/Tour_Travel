@@ -18,7 +18,7 @@ export default function GoaDetail() {
                 <h1>Goa - Sun, Sand, and Sea</h1>
                 <p>
                   Unwind on golden beaches, enjoy vibrant nightlife, and explore
-                  Portuguese heritage architecture. Goa is India's tropical paradise.
+                  Portuguese heritage architecture. Goa is India&apos;s tropical paradise.
                 </p>
                 <ul>
                   <li> Relax at Baga and Calangute beaches</li>

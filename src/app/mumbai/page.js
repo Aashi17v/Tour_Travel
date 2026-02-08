@@ -23,7 +23,7 @@ export default function MumbaiDetail() {
                 <ul>
                   <li> Visit Gateway of India and Marine Drive</li>
                   <li> Explore Bollywood film studios</li>
-                  <li> Try Mumbai's street food - Vada Pav & Pav Bhaji</li>
+                  <li> Try Mumbai&apos;s street food - Vada Pav & Pav Bhaji</li>
                 </ul>
                 <div className="buttons">
                   <Link href="/ticket_booking"><button className="book_now">Book Now</button></Link>

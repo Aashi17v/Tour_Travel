@@ -17,7 +17,7 @@ export default function DelhiDetail() {
               <div className="content_section">
                 <h1>Delhi - The Heart of India</h1>
                 <p>
-                  Experience the vibrant blend of history and modernity in India's capital.
+                  Experience the vibrant blend of history and modernity in India&apos;s capital.
                   From ancient Mughal monuments to bustling markets, Delhi offers a journey
                   through time and culture.
                 </p>
